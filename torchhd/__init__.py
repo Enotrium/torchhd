@@ -27,6 +27,8 @@ import torchhd.structures as structures
 import torchhd.models as models
 import torchhd.classifiers as classifiers
 import torchhd.memory as memory
+import torchhd.online as online
+import torchhd.quantize as quantize
 import torchhd.datasets as datasets
 import torchhd.utils as utils
 
@@ -102,6 +104,8 @@ __all__ = [
     "models",
     "classifiers",
     "memory",
+    "online",
+    "quantize",
     "datasets",
     "utils",
     "ensure_vsa_tensor",

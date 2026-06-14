@@ -29,6 +29,10 @@ import torchhd.classifiers as classifiers
 import torchhd.memory as memory
 import torchhd.online as online
 import torchhd.quantize as quantize
+import torchhd.arith as arith
+import torchhd.export as export
+import torchhd.verif as verif
+import torchhd.prng as prng
 import torchhd.datasets as datasets
 import torchhd.utils as utils
 
@@ -106,6 +110,10 @@ __all__ = [
     "memory",
     "online",
     "quantize",
+    "arith",
+    "export",
+    "verif",
+    "prng",
     "datasets",
     "utils",
     "ensure_vsa_tensor",
